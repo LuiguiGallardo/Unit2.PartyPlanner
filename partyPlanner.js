@@ -48,7 +48,7 @@ function renderEvents() {
       <p><b>Description:</b>\t${event.description}</p>
       <p><b>Date:</b>\t${event.date}</p>
       <p><b>Location:</b>\t${event.location}</p>
-      <button onclick="deleteEvent('${event.id}')">Delete</button>
+      <button onclick="deleteEvent('${event.id}')">Delete event</button>
     `;
         return li;
     });
