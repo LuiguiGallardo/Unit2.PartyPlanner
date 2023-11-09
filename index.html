@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party Schedule</title>
+    <script defer src="partyPlanner.js"></script>
+</head>
+<body>
+    <h1>Party Schedule</h1>
+    <!-- List of Parties to be displayed-->
+    <div id="partyList">
+        
+    </div>
+
+    <!-- Party Entry Form -->
+    <h2>Schedule a New Event</h2>
+    <form id="addEvent">
+        <label for="name">Party Name:</label>
+        <input type="text" id="name" required><br>
+        
+        <label for="">Party Date/Time</label>
+        <input id="date" type="text" placeholder="2023-08-20T23:40:08.000Z">
+
+        <label for="location">Location:</label>
+        <input type="text" id="location" required><br>
+
+        <label for="description">Description:</label>
+        <input type="text" id="description" required><br>
+        
+        <button>Add Event</button>
+    </form>
+
+    <h2>Events:</h2>
+    <ul id="events"></ul>
+
+
+</body>
+</html>
